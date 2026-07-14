@@ -1,7 +1,7 @@
 {
-  "name": "masteting-nuxt",
-  "type": "module",
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,9 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/ui": "3.0.0",
-    "nuxt": "3.14.0",
-    "vue": "^3.5.39",
-    "vue-router": "^5.1.0"
-  }
+    "nuxt": "^4.0.1",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "packageManager": "pnpm@10.13.1"
 }
